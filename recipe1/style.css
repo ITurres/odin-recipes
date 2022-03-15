@@ -6,7 +6,8 @@
     font-size: 50px;
 }
 
-#subtitle {
+#subtitle,
+.ingredients {
     color: brown;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;

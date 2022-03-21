@@ -48,8 +48,9 @@
 #flex-container2 {
     display: flex;
     background-color: coral;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
+    gap: 25px;
 }
 
 #flex-container2 ul, 
@@ -61,8 +62,9 @@ ol{
     font-weight: 600;
     align-items: center;
     text-align: center;
-    margin: 10px;
+    margin: 25px;
     width: 50%;
-    padding: 10px;
-    
+    padding: 20px;
+    flex: 1 1 auto;
+      
 }

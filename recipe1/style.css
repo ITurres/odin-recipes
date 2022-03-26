@@ -37,6 +37,34 @@ ul {
     height: 80px;
 }
 
+.navbar .logo {
+    font-style: oblique;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container ul{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+
+
+
 
 
 

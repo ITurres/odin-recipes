@@ -50,11 +50,17 @@ ul {
     font-weight: 700;
 }
 
+.navbar a:hover  {
+    color: brown;
+}
+
 .navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
+
 
 .container ul{
     display: flex;
@@ -62,56 +68,53 @@ ul {
     margin-left: 15px;
 }
 
-
-
-
-
-
-
-
-
-#flex-container1 {
-    display: flex;
-    background-color: coral;
-    align-items: center;
-    justify-content: center;
+.navbar ul li {
+    margin-left: 15px;
 }
 
-#flex-container1 div {
-    background-color: beige;
-    color: green;
-    font-size: 30px;
+.header1 {
+    background: beige;
+    min-height: 400px;
+}
+
+.header1 h1 {
+    font-size: 3rem;
     font-weight: 700;
-    align-items: center;
-    text-align: center;
-    margin: 10px;
-    width: 100%;
-    padding: 10px;
+    line-height: 1.2;
 }
 
-#flex-container2 {
+.header1 p {
+  font-size: large;
+  font-weight: 600;
+  margin-right: 30px;
+}
+
+.header1 img {
+    max-width: 600px;
+}
+
+.header1 .container {
     display: flex;
-    background-color: coral;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    height: auto;
-    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-}
-
-#flex-container2 ul, 
-ol{
-    background-color: beige;
-    color: black;
-    border: 3px solid green;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    height: auto;
-    margin: 25px;
-    width: 50%;
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: wheat;
     padding: 20px;
-    flex: 1 1 auto;
-      
 }
+
+.box div { /*this is ingredients and steps */
+    background-color: greenyellow;
+    font-size: x-large;
+    font-weight: 700;
+    color: #333;
+    padding: 15px 200px;
+    border-radius: 15px;
+}
+

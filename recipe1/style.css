@@ -1,3 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
 #pizza {
     background-color: greenyellow;
     color: red;
@@ -48,9 +61,12 @@
 #flex-container2 {
     display: flex;
     background-color: coral;
-    align-items: stretch;
+    flex-direction: row;
+    align-items: flex-start;
     justify-content: center;
+    height: auto;
     gap: 25px;
+
 }
 
 #flex-container2 ul, 
@@ -60,8 +76,8 @@ ol{
     border: 3px solid green;
     font-size: 20px;
     font-weight: 600;
-    align-items: center;
     text-align: center;
+    height: auto;
     margin: 25px;
     width: 50%;
     padding: 20px;

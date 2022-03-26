@@ -118,3 +118,32 @@ ul {
     border-radius: 15px;
 }
 
+.lists .container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes {
+    flex: 1;
+    background: wheat;
+    color: #333;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 15px;
+}
+
+.boxes ul li {
+    background-color: beige;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.boxes ol li {
+    background-color: beige;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+

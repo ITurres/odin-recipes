@@ -12,9 +12,23 @@ body {
     background-color: beige;
 }
 
-.navbar {
-
+img {
+    max-width: 100%;
 }
+
+h1,
+h2 {
+    margin-bottom: 15px;
+}
+
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+
 
 
 #flex-container1 {

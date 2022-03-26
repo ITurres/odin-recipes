@@ -21,12 +21,23 @@ h2 {
     margin-bottom: 15px;
 }
 
+ul {
+    list-style-type: none;
+}
 
 .container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
 }
+
+.navbar {
+    background: greenyellow;
+    color: #333;
+    height: 80px;
+}
+
+
 
 
 

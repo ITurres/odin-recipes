@@ -41,6 +41,7 @@ ul {
     font-style: oblique;
     font-size: x-large;
     font-weight: 700;
+    line-height: 1.2;
 }
 
 .navbar a {
@@ -150,6 +151,5 @@ ul li {
     padding: 10px;
     margin: 10px;
 }
-
 
 

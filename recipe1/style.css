@@ -111,11 +111,16 @@ ul {
 
 .box div { /*this is ingredients and steps */
     background-color: greenyellow;
+    width: 200px;
     font-size: x-large;
     font-weight: 700;
     color: #333;
     padding: 15px 200px;
     border-radius: 15px;
+    flex-shrink: 1 2 0;
+
+    display: flex;
+    justify-content: center;
 }
 
 .lists .container2 {
